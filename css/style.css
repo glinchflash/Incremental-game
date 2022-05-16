@@ -23,17 +23,23 @@ p {
 
 button {
   border: gold solid 2px;
-  border-radius: 35px;
+  border-radius: 25px;
   display: flex;
   justify-content: center;
   background-color: black;
   color: gold;
-  margin: 0.5rem;
 }
 
-button:hover {
+button::hover {
   background-color: gold;
   color: black;
+}
+
+h1 {
+  text-align: center;
+  color: gold;
+  font-style: italic;
+  font-size: xxx-large;
 }
 
 /*# sourceMappingURL=style.css.map */

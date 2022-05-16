@@ -21,8 +21,8 @@ function addGold() {
 // function to buy upgrade 1 /and have no negative value
 document.getElementById("buyAd").addEventListener("click", buyAD);
 
-function buyAD() {
 
+function buyAD() {
     if (gold >= adCost) {
         gold = gold - adCost;
         totalAD = totalAD + 1;
@@ -75,19 +75,6 @@ setInterval(function () {
 
 
 //200% income for 30 seconds
-/*
-document.getElementById("infinityEdge").addEventListener("click", setInterval(function () {
-    if (gold >= ieCost) {
-        clickingPower = clickingPower * 2;
-        if (timeleft <= 0) {
-            alert("Multiplier has ended!")
-        }
-        timeLeft -= 1;
-        document.getElementById('infinityEdge').innerHTML = timeLeft;
-
-    }
-
-},1000) );*/
 
 document.getElementById('infinityEdge').addEventListener("click", multiply);
 

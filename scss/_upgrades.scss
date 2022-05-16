@@ -1,0 +1,13 @@
+button{
+  border: gold solid  2px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: gold;
+}
+
+button::hover{
+  background-color: gold;
+  color: black;
+}

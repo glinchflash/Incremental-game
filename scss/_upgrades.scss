@@ -11,3 +11,8 @@ button:hover{
   background-color: gold;
   color: black;
 }
+
+button:disabled{
+  background-color: grey;
+  color: gold;
+}

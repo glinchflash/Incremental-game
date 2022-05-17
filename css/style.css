@@ -12,6 +12,18 @@ div {
   justify-content: center;
 }
 
+div img {
+  transition: all 0.2 ease-in-out;
+}
+
+div img:hover {
+  transform: scale(1.1);
+}
+
+div img:active {
+  transform: scale(0.99);
+}
+
 p {
   text-align: center;
   justify-content: center;
@@ -33,6 +45,11 @@ button {
 button:hover {
   background-color: gold;
   color: black;
+}
+
+button:disabled {
+  background-color: grey;
+  color: gold;
 }
 
 h1 {

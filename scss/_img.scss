@@ -3,3 +3,16 @@ div{
   position: center;
   justify-content: center;
 }
+
+
+div img{
+  transition: all 0.2 ease-in-out;
+}
+
+div img:hover{
+  transform: scale(1.1);
+}
+
+div img:active{
+  transform: scale(0.99);
+}

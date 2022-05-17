@@ -8,7 +8,6 @@ let bfCost = 250;
 let totalbf = 0;
 let currentBF = 0;
 //variables for temporary boost
-let ieCost = 1000;
 let timeLeft = 15;
 
 
@@ -18,10 +17,7 @@ setInterval(function () {
 }, 1);
 
 
-//disable buttons
-document.getElementById("buyAd").disabled = gold < adCost;
-document.getElementById("buyBF").disabled = gold < bfCost;
-document.getElementById("infinityEdge").disabled = gold < ieCost;
+btnCheck();
 
 
 //function to add 1 to gold/score per click
@@ -32,6 +28,12 @@ function addGold() {
     document.getElementById("gold").innerHTML = gold.toFixed(0);
 }
 
+//Upgrade 3 cooldown
+document.getElementById('infinityEdge').setAttribute('disabled', 'disabled');
+setInterval(function () {
+    document.getElementById('infinityEdge').removeAttribute('disabled');
+}, 300000)
+
 
 // function to check if buttons may be enabled
 document.getElementById("addGold").addEventListener("click", btnCheck);
@@ -39,7 +41,6 @@ document.getElementById("addGold").addEventListener("click", btnCheck);
 function btnCheck() {
     document.getElementById("buyAd").disabled = gold < adCost;
     document.getElementById("buyBF").disabled = gold < bfCost;
-    document.getElementById("infinityEdge").disabled = gold < ieCost;
 }
 
 // function to buy upgrade 1 /and have no negative value
@@ -65,7 +66,7 @@ function buyAD() {
     if (totalAD >= 10) {
         adCost = Math.round(adCost * 1.3);
         clickingPower = Math.floor(totalAD * 2);
-        currentAD = Math.floor(totalAD *2)
+        currentAD = Math.floor(totalAD * 2)
         document.getElementById("gold").innerHTML = gold.toFixed(0);
         document.getElementById("adCost").innerHTML = adCost;
         document.getElementById("totalAD").innerHTML = totalAD;
@@ -74,7 +75,7 @@ function buyAD() {
     if (totalAD >= 25) {
         adCost = Math.round(adCost * 1.5);
         clickingPower = Math.floor(totalAD * 3);
-        currentAD = Math.floor(totalAD *3)
+        currentAD = Math.floor(totalAD * 3)
         document.getElementById("gold").innerHTML = gold.toFixed(0);
         document.getElementById("adCost").innerHTML = adCost;
         document.getElementById("totalAD").innerHTML = totalAD;
@@ -83,7 +84,7 @@ function buyAD() {
     if (totalAD >= 50) {
         adCost = Math.round(adCost * 1.8);
         clickingPower = Math.floor(totalAD * 4);
-        currentAD = Math.floor(totalAD *4)
+        currentAD = Math.floor(totalAD * 4)
         document.getElementById("gold").innerHTML = gold.toFixed(0);
         document.getElementById("adCost").innerHTML = adCost;
         document.getElementById("totalAD").innerHTML = totalAD;
@@ -91,8 +92,8 @@ function buyAD() {
     }
     if (totalAD >= 100) {
         adCost = Math.round(adCost * 2.1);
-        clickingPower  = Math.floor(totalAD * 5);
-        currentAD = Math.floor(totalAD *5)
+        clickingPower = Math.floor(totalAD * 5);
+        currentAD = Math.floor(totalAD * 5)
         document.getElementById("gold").innerHTML = gold.toFixed(0);
         document.getElementById("adCost").innerHTML = adCost;
         document.getElementById("totalAD").innerHTML = totalAD;
@@ -104,6 +105,8 @@ function buyAD() {
 // function to buy upgrade 2 (autoclicker)
 document.getElementById("buyBF").addEventListener("click", buyBF);
 document.getElementById("buyBF").addEventListener("click", btnCheck)
+
+
 
 function buyBF() {
     if (gold < bfCost) {
@@ -174,38 +177,29 @@ setInterval(function () {
 }, 1000);
 
 
+//button check for multiplier
 
-//200% income for 30 seconds
 
 document.getElementById('infinityEdge').addEventListener("click", multiply);
-document.getElementById("infinityEdge").addEventListener("click", btnCheck)
+document.getElementById('infinityEdge').addEventListener("click", lockbtn);
 
-//function for multiplier x2 for 30 seconds
-function multiply() {
-    if (gold < ieCost) {
-        alert("you don't have enough gold to purchase this!");
-    }
-    if (gold >= ieCost) {
-        gold = gold - ieCost;
-        ieCost = Math.round(ieCost * 1.6);
-        clickingPower = clickingPower * 2;
-        document.getElementById("infinityEdge").disabled = gold < ieCost;
-        let multiplier = setInterval(function () {
-
-            timeLeft -= 1;
-            document.getElementById('infinityEdge').innerHTML = "Time left: " + timeLeft;
-            if (timeLeft <= 0) {
-                clickingPower = clickingPower / 2;
-                clearInterval(multiplier);
-                document.getElementById('infinityEdge').innerHTML = "Infinity Edge " + "[" + ieCost + "]";
-            }
-        }, 1000)
-        timeLeft = 15;
-
-    }
+function lockbtn(){
+    document.getElementById('infinityEdge').setAttribute('disabled', 'disabled');
 }
-
-
+//function for click-multiplier x2 for 15 seconds
+function multiply() {
+    clickingPower = clickingPower * 2;
+    let multiplier = setInterval(function () {
+        timeLeft -= 1;
+        document.getElementById('infinityEdge').innerHTML = "Time left: " + timeLeft;
+        if (timeLeft <= 0) {
+            clickingPower = clickingPower / 2;
+            clearInterval(multiplier);
+            document.getElementById('infinityEdge').innerHTML = "Infinity Edge ";
+        }
+    }, 1000)
+    timeLeft = 15;
+}
 
 
 

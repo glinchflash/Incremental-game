@@ -8,12 +8,11 @@ body {
 
 div {
   display: flex;
-  position: center;
   justify-content: center;
 }
 
 div img {
-  transition: all 0.2 ease-in-out;
+  transition: all ease-in-out;
 }
 
 div img:hover {
@@ -69,22 +68,33 @@ h1 {
   display: block;
   border: gold 3px solid;
   border-radius: 15%;
+  background-color: rgba(21, 20, 20, 0.6);
 }
 
 .explained h2 {
-  position: center;
   text-align: center;
   text-decoration: underline;
   margin: 1%;
 }
 
 .explained h3 {
-  position: center;
   text-align: center;
 }
 
 .bonus {
   color: cyan;
+}
+
+.WebContainer {
+  width: 100%;
+  height: auto;
+}
+
+.articles {
+  width: 90%;
+  /*Takes 90% width from WebContainer*/
+  height: auto;
+  margin: auto;
 }
 
 /*# sourceMappingURL=style.css.map */

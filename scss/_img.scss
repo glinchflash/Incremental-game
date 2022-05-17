@@ -1,12 +1,11 @@
 div{
   display: flex;
-  position: center;
   justify-content: center;
 }
 
 
 div img{
-  transition: all 0.2 ease-in-out;
+  transition: all ease-in-out;
 }
 
 div img:hover{

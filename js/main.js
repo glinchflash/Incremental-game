@@ -1,9 +1,9 @@
 //variable list
 let gold = 0;
-let adCost = 25;
+let adCost = 100;
 let totalAD = 0;
 let clickingPower = 1;
-let bfCost = 300;
+let bfCost = 500;
 let totalbf = 0;
 //variables for temporary boost
 let ieCost = 1000;
@@ -45,7 +45,7 @@ function buyAD() {
     if (gold >= adCost) {
         gold = gold - adCost;
         totalAD = totalAD + 1;
-        adCost = Math.round(adCost * 1.2);
+        adCost = Math.round(adCost * 1.68);
         clickingPower = clickingPower + 1;
 
         document.getElementById("gold").innerHTML = gold.toFixed(2);
@@ -64,7 +64,7 @@ function buyBF() {
     if (gold >= bfCost) {
         gold = gold - bfCost;
         totalbf = totalbf + 1;
-        bfCost = Math.round(bfCost * 1.15);
+        bfCost = Math.round(bfCost * 1.65);
         document.getElementById("gold").innerHTML = gold.toFixed(2);
         document.getElementById("bfCost").innerHTML = bfCost;
         document.getElementById("totalbf").innerHTML = totalbf;

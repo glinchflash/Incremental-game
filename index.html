@@ -8,7 +8,7 @@
 </head>
 <body>
 <h1>LoL-minion clicker</h1>
-<p>
+<p class="goldValue">
     <img src="images/goldcoin.png" alt="goldencoin" width="50px" height="50px" id="coin"><span id="gold">0</span>
 </p>
 <!--image to click on-->
@@ -17,15 +17,25 @@
 
 <!-- button to buy upgrade 1-->
 <div class="upgrades">
-    <button id="buyAd" title="gain 1 per click extra per level bought, complete milestones to increase bonus gold">
-        Long sword  Cost: [<span id="adCost">100</span>] lvl: <span id="totalAD">0</span>
+    <button id="buyAd" title="gain 1 per click extra per level bought">
+        Long sword Cost: [<span id="adCost">100</span>] lvl: <span id="totalAD">0</span>
     </button>
-    <button id="buyBF" title="gain 1 gold per second, compelete milestones to increase bonus gold">BF-Sword  Cost: [<span
+    <button id="buyBF" title="gain 1 gold per second, compelete milestones to increase bonus gold">BF-Sword Cost: [<span
             id="bfCost">500</span>] lvl: <span id="totalbf">0</span>
     </button>
-    <button id="infinityEdge" title="multiple income by 2 for 30 seconds">Infinity Edge  Cost: [<span
+    <button id="infinityEdge" title="multiple income by 2 for 30 seconds">Infinity Edge Cost: [<span
             id="ieCost">1000</span>]
     </button>
+
+</div>
+
+<div class="explained">
+    <h2>Upgrades explanation</h2>
+    <div><h3>Longsword: Gain 1 per click extra.</h3></div>
+       <div class="bonus">current Longsword bonus: [<span id="currentAD">0</span>] gold per click extra!</div>
+    <div><h3>BF-sword: Gain 1 gold per second.</h3></div>
+       <div class="bonus">current BFsword bonus: [<span id="currentBF">0</span>] gold per second!</div>
+    <div><h3>Infinity Edge: double your click gold for 15 seconds!</h3></div>
 </div>
 
 <script src="js/main.js"></script>

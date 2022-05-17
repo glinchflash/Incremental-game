@@ -24,7 +24,7 @@ div img:active {
   transform: scale(0.99);
 }
 
-p {
+.goldValue {
   text-align: center;
   justify-content: center;
   display: block;
@@ -53,10 +53,38 @@ button:disabled {
 }
 
 h1 {
+  margin: 1%;
   text-align: center;
   color: gold;
   font-style: italic;
   font-size: xxx-large;
+}
+
+.explained {
+  width: 35vw;
+  margin-top: 2%;
+  margin-left: 32vw;
+  font-size: medium;
+  color: rgba(253, 235, 1, 0.99);
+  display: block;
+  border: gold 3px solid;
+  border-radius: 15%;
+}
+
+.explained h2 {
+  position: center;
+  text-align: center;
+  text-decoration: underline;
+  margin: 1%;
+}
+
+.explained h3 {
+  position: center;
+  text-align: center;
+}
+
+.bonus {
+  color: cyan;
 }
 
 /*# sourceMappingURL=style.css.map */

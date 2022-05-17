@@ -28,7 +28,7 @@ function addGold() {
     document.getElementById("gold").innerHTML = gold.toFixed(0);
 }
 
-//Upgrade 3 cooldown
+//Upgrade 3 cooldown so buttons only gets unlocked every 5 minutes
 document.getElementById('infinityEdge').setAttribute('disabled', 'disabled');
 setInterval(function () {
     document.getElementById('infinityEdge').removeAttribute('disabled');

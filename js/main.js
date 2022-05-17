@@ -7,7 +7,7 @@ let bfCost = 300;
 let totalbf = 0;
 //variables for temporary boost
 let ieCost = 1000;
-let timeLeft = 30;
+let timeLeft = 15;
 
 
 //disable buttons
@@ -112,8 +112,8 @@ function multiply() {
     }
     if (gold >= ieCost) {
         gold = gold - ieCost;
-        ieCost = Math.round(ieCost * 1.85);
-        clickingPower = clickingPower * 2;
+        ieCost = Math.round(ieCost * 1.6);
+        clickingPower = clickingPower * 2.5;
         document.getElementById("infinityEdge").disabled = gold < ieCost;
         let multiplier = setInterval(function () {
 
@@ -125,9 +125,13 @@ function multiply() {
                 document.getElementById('infinityEdge').innerHTML = "Infinity Edge " + "[" + ieCost + "]";
             }
         }, 1000)
+        timeLeft = 15;
 
     }
 }
+
+
+
 
 
 

@@ -166,17 +166,17 @@ Step 13: make it pretty [x]
     1. Set up function to check if level meets requirements  [x]
     2. Increase bonuses gained from milestones achieved [x]
     3. Update panel to show new current active benefit  [x]
-    4. Update panel to show updated version of benefits gained when purchased []
+    4. Update panel to show updated version of benefits gained when purchased [x]
 
 
 * Add milestones in upgrade 2
     1. Set up function to check if level meets requirements  [x]
     2. Increase bonuses gained from milestones achieved [x]
     3. Update panel to show new current active benefit  [x]
-    4. Update panel to show updated version of benefits gained when purchased []
+    4. Update panel to show updated version of benefits gained when purchased [x]
 
 
-* Add panel or display to showcase different milestones
+* Add panel or display to showcase different milestones [x]
 * Rebase feature (start over but with increased benefits based on new 'currency')
 * After a specific point change image from standard minion to canon minion, and next super minon
 * upgrade that speeds up autoclicker for set amount of time

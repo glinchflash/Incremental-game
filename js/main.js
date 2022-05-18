@@ -58,7 +58,7 @@ function buyAD() {
         adCost = Math.round(adCost * 1.15);
         clickingPower = clickingPower + 1;
         currentAD = totalAD;
-        document.getElementById("gold").innerHTML = gold.toFixed(0);
+        document.getElementById("gold").innerHTML = gold;
         document.getElementById("adCost").innerHTML = adCost;
         document.getElementById("totalAD").innerHTML = totalAD;
         document.getElementById("currentAD").innerHTML = currentAD;
@@ -67,7 +67,7 @@ function buyAD() {
         adCost = Math.round(adCost * 1.3);
         clickingPower = Math.floor(totalAD * 2);
         currentAD = Math.floor(totalAD * 2)
-        document.getElementById("gold").innerHTML = gold.toFixed(0);
+        document.getElementById("gold").innerHTML = gold;
         document.getElementById("adCost").innerHTML = adCost;
         document.getElementById("totalAD").innerHTML = totalAD;
         document.getElementById("currentAD").innerHTML = currentAD;
@@ -76,7 +76,7 @@ function buyAD() {
         adCost = Math.round(adCost * 1.5);
         clickingPower = Math.floor(totalAD * 3);
         currentAD = Math.floor(totalAD * 3)
-        document.getElementById("gold").innerHTML = gold.toFixed(0);
+        document.getElementById("gold").innerHTML = gold;
         document.getElementById("adCost").innerHTML = adCost;
         document.getElementById("totalAD").innerHTML = totalAD;
         document.getElementById("currentAD").innerHTML = currentAD;
@@ -85,16 +85,16 @@ function buyAD() {
         adCost = Math.round(adCost * 1.8);
         clickingPower = Math.floor(totalAD * 4);
         currentAD = Math.floor(totalAD * 4)
-        document.getElementById("gold").innerHTML = gold.toFixed(0);
+        document.getElementById("gold").innerHTML = gold;
         document.getElementById("adCost").innerHTML = adCost;
         document.getElementById("totalAD").innerHTML = totalAD;
         document.getElementById("currentAD").innerHTML = currentAD;
     }
     if (totalAD >= 100) {
         adCost = Math.round(adCost * 2.1);
-        clickingPower = Math.floor(totalAD * 5);
-        currentAD = Math.floor(totalAD * 5)
-        document.getElementById("gold").innerHTML = gold.toFixed(0);
+        clickingPower = Math.floor(totalAD * 10);
+        currentAD = Math.floor(totalAD * 10)
+        document.getElementById("gold").innerHTML = gold;
         document.getElementById("adCost").innerHTML = adCost;
         document.getElementById("totalAD").innerHTML = totalAD;
         document.getElementById("currentAD").innerHTML = currentAD;
@@ -117,7 +117,7 @@ function buyBF() {
         totalbf = totalbf + 1;
         bfCost = Math.round(bfCost * 1.40);
         currentBF = totalbf;
-        document.getElementById("gold").innerHTML = gold.toFixed(0);
+        document.getElementById("gold").innerHTML = gold;
         document.getElementById("bfCost").innerHTML = bfCost;
         document.getElementById("totalbf").innerHTML = totalbf;
         document.getElementById("currentBF").innerHTML = currentBF;
@@ -140,35 +140,35 @@ function buyBF() {
 //set interval to make score/gold go higher automatic based on upgrade 2 // + 1000ms = 1second
 setInterval(function () {
     gold = gold + totalbf;
-    document.getElementById("gold").innerHTML = gold.toFixed(0);
+    document.getElementById("gold").innerHTML = gold;
     if (totalbf >= 10) {
         gold = gold + Math.floor(totalbf * 2);
         currentBF = Math.floor(totalbf * 2);
-        document.getElementById("gold").innerHTML = gold.toFixed(0);
+        document.getElementById("gold").innerHTML = gold;
         document.getElementById("bfCost").innerHTML = bfCost;
         document.getElementById("totalbf").innerHTML = totalbf;
         document.getElementById("currentBF").innerHTML = currentBF;
     }
     if (totalbf >= 25) {
-        gold = gold + Math.floor(totalbf * 3);
-        currentBF = Math.floor(totalbf * 3);
-        document.getElementById("gold").innerHTML = gold.toFixed(0);
+        gold = gold + Math.floor(totalbf * 4);
+        currentBF = Math.floor(totalbf * 4);
+        document.getElementById("gold").innerHTML = gold;
         document.getElementById("bfCost").innerHTML = bfCost;
         document.getElementById("totalbf").innerHTML = totalbf;
         document.getElementById("currentBF").innerHTML = currentBF;
     }
     if (totalbf >= 50) {
-        gold = gold + Math.floor(totalbf * 4);
-        currentBF = Math.floor(totalbf * 4);
-        document.getElementById("gold").innerHTML = gold.toFixed(0);
+        gold = gold + Math.floor(totalbf * 6);
+        currentBF = Math.floor(totalbf * 6);
+        document.getElementById("gold").innerHTML = gold;
         document.getElementById("bfCost").innerHTML = bfCost;
         document.getElementById("totalbf").innerHTML = totalbf;
         document.getElementById("currentBF").innerHTML = currentBF;
     }
     if (totalbf >= 100) {
-        gold = gold + Math.floor(totalbf * 8);
-        currentBF = Math.floor(totalbf * 8);
-        document.getElementById("gold").innerHTML = gold.toFixed(0);
+        gold = gold + Math.floor(totalbf * 10);
+        currentBF = Math.floor(totalbf * 10);
+        document.getElementById("gold").innerHTML = gold;
         document.getElementById("bfCost").innerHTML = bfCost;
         document.getElementById("totalbf").innerHTML = totalbf;
         document.getElementById("currentBF").innerHTML = currentBF;

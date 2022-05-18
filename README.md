@@ -92,91 +92,92 @@ JavaScript.
 ---
 ## progress
 
-Step 1: base structure - [x]
-1. Write base html [x]
-2. Write base css (used scss) [x]
-3. Write base js [x]
+[x] Step 1: base structure
+1. - [x] Write base html 
+2. - [x] Write base css (used scss) 
+3. - [x] Write base js 
 
-Step 2: prepare the JavaScript [x]
-1. Setup variables [x]
-2. Setup score (named "Gold") [x]
-
-
-Step 3: increase the score [x]
-1. Add feature when clicking the minion user gains 1 gold [x]
-2. Track score  [x]
-
-Step 4: make a multiplier [x]
-1. Add button for first upgrade  [x]
-2. Link button to function to increase gold/click gained  [x]
-3. Track score  [x]
-
-Step 5: price of multiplier [x]
-1. Add price to button
-2. Make gold decrease by cost of upgrade  [x]
+[x]Step 2: prepare the JavaScript 
+1. - [x]  Setup variables 
+2. - [x] Setup score (named "Gold") 
 
 
-Step 6: no credit [x]
-1. Let function check if player has enough gold to purchase upgrades  [x]
-2. Player can't buy upgrade when gold isn't sufficient  [x]
+[x] Step 3: increase the score 
+1.  - [x] Add feature when clicking the minion user gains 1 gold 
+2.  - [x] Track score  
 
-Step 7: display multiplier counter [x]
-1. Add upgrades explanation panel  [x]
-2. Display current level(amount bought) of upgrades  [x]
-3. Display the bonuses received from each upgrade  [x]
+[x] Step 4: make a multiplier 
+1.  - [x] Add button for first upgrade  
+2.  - [x] Link button to function to increase gold/click gained  
+3.  - [x] Track score  
 
-Step 8: increase the cost [x]
-1. Increase cost per level bought for each upgrade  [x]
-2. Implement scaling of upgrade cost  [x]
+[x] Step 5: price of multiplier 
+1.  - [x] Add price to button
+2.  - [x] Make gold decrease by cost of upgrade  
 
-Step 9: display the cost [x]
-1. Display cost for each upgrade inside upgrade button  [x]
-2. Cost updates according to scaling  [x]
 
-Step 10: auto-clicker [x]
-1. Add button for auto clicker (upgrade 2) [x]
-2. Link the button to the function to gain automatic gold each second  [x]
-3. Update score accordingly  [x]
-4. Scale costs  [x]
-5. Update button info (cost & lvl)  [x]
-   * Include timer how long bonus last  [x] 
-6. Update upgrades explanation panel and current active benefits  [x]
+[x] Step 6: no credit 
+1.  - [x] Let function check if player has enough gold to purchase upgrades  
+2.  - [x] Player can't buy upgrade when gold isn't sufficient 
+
+[x] Step 7: display multiplier counter 
+1.  - [x] Add upgrades explanation panel  
+2.  - [x] Display current level(amount bought) of upgrades  
+3.  - [x] Display the bonuses received from each upgrade  
+
+[x] Step 8: increase the cost 
+1.  - [x] Increase cost per level bought for each upgrade 
+2.  - [x] Implement scaling of upgrade cost  
+
+[x] Step 9: display the cost 
+1.  - [x] Display cost for each upgrade inside upgrade button  
+2.  - [x] Cost updates according to scaling
+
+[x] Step 10: auto-clicker 
+1.  - [x] Add button for auto clicker (upgrade 2) 
+2.  - [x] Link the button to the function to gain automatic gold each second  
+3.  - [x] Update score accordingly  
+4.  - [x] Scale costs  
+5.  - [x] Update button info (cost & lvl)  
+       *  - [x] Include timer how long bonus last  
+6.  - [x] Update upgrades explanation panel and current active benefits  
 ### Bonus steps
 
-Step 11: bonus [x]
-1. Add button for upgrade 3 (booster) [x]
-2. Link button to function to multiply income by clicks by 2 [x]
-3. Update upgrades explanation panel  [x]
-4. Add timer to button (5minutes)  [x]
+[x] Step 11: bonus 
+1.  - [x] Add button for upgrade 3 (booster) 
+2.  - [x] Link button to function to multiply income by clicks by 2 
+3.  - [x] Update upgrades explanation panel  
+4.  - [x] Add timer to button (5minutes)  
 
-Step 12: deactivate the buttons [x]
-1. Adjust functions to disable buttons when gold is insufficient  [x]
-2. Add styling to buttons to show when disabled or enabled  [x]
-
-Step 13: make it pretty [x] 
-1. Add background to page  [x]
-2. Style buttons for upgrades (disabled and enabled version) [x]
-3. Style upgrades explanation / current active benefits panel  [x]
-4. Adjust placements of images, buttons and panel  [x]
+[x] Step 12: deactivate the buttons 
+1.  - [x] Adjust functions to disable buttons when gold is insufficient  
+2.  - [x] Add styling to buttons to show when disabled or enabled  
+- 
+[x] Step 13: make it pretty 
+1. - [x] Add background to page 
+2. - [x] Style buttons for upgrades (disabled and enabled version) 
+3. - [x] Style upgrades explanation / current active benefits panel  
+4. - [x] Adjust placements of images, buttons and panel  
 
 ---
 
 ### Extra features (ideas)
-* Add milestones in upgrade 1 [x]
-    1. Set up function to check if level meets requirements  [x]
-    2. Increase bonuses gained from milestones achieved [x]
-    3. Update panel to show new current active benefit  [x]
-    4. Update panel to show updated version of benefits gained when purchased [x]
+* [x] Add milestones in upgrade 1 
+    1. - [x] Set up function to check if level meets requirements  
+    2. - [x] Increase bonuses gained from milestones achieved 
+    3. - [x] Update panel to show new current active benefit  
+    4. - [x] Update panel to show updated version of benefits gained when purchased 
 
 
-* Add milestones in upgrade 2 [x]
-    1. Set up function to check if level meets requirements  [x]
-    2. Increase bonuses gained from milestones achieved [x]
-    3. Update panel to show new current active benefit  [x]
-    4. Update panel to show updated version of benefits gained when purchased [x]
+* [x] Add milestones in upgrade 2
+    1. - [x] Set up function to check if level meets requirements  
+    2. - [x] Increase bonuses gained from milestones achieved 
+    3. - [x] Update panel to show new current active benefit  
+    4. - [x] Update panel to show updated version of benefits gained when purchased 
 
 
-* Add panel or display to showcase different milestones [x]
+* [x] Add panel or display to showcase different milestones 
+    1. 
 * Rebase feature (start over but with increased benefits based on new 'currency')
 * After a specific point change image from standard minion to canon minion, and next super minon
 * upgrade that speeds up autoclicker for set amount of time

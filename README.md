@@ -92,48 +92,48 @@ JavaScript.
 ---
 ## progress
 
-[x] Step 1: base structure
+ [x] Step 1: base structure
 1. - [x] Write base html 
 2. - [x] Write base css (used scss) 
 3. - [x] Write base js 
 
-[x]Step 2: prepare the JavaScript 
+ [x]Step 2: prepare the JavaScript 
 1. - [x]  Setup variables 
 2. - [x] Setup score (named "Gold") 
 
 
-[x] Step 3: increase the score 
+ [x] Step 3: increase the score 
 1.  - [x] Add feature when clicking the minion user gains 1 gold 
 2.  - [x] Track score  
 
-[x] Step 4: make a multiplier 
+ [x] Step 4: make a multiplier 
 1.  - [x] Add button for first upgrade  
 2.  - [x] Link button to function to increase gold/click gained  
 3.  - [x] Track score  
 
-[x] Step 5: price of multiplier 
+ [x] Step 5: price of multiplier 
 1.  - [x] Add price to button
 2.  - [x] Make gold decrease by cost of upgrade  
 
 
-[x] Step 6: no credit 
+ [x] Step 6: no credit 
 1.  - [x] Let function check if player has enough gold to purchase upgrades  
 2.  - [x] Player can't buy upgrade when gold isn't sufficient 
 
-[x] Step 7: display multiplier counter 
+ [x] Step 7: display multiplier counter 
 1.  - [x] Add upgrades explanation panel  
 2.  - [x] Display current level(amount bought) of upgrades  
 3.  - [x] Display the bonuses received from each upgrade  
 
-[x] Step 8: increase the cost 
+ [x] Step 8: increase the cost 
 1.  - [x] Increase cost per level bought for each upgrade 
 2.  - [x] Implement scaling of upgrade cost  
 
-[x] Step 9: display the cost 
+ [x] Step 9: display the cost 
 1.  - [x] Display cost for each upgrade inside upgrade button  
 2.  - [x] Cost updates according to scaling
 
-[x] Step 10: auto-clicker 
+ [x] Step 10: auto-clicker 
 1.  - [x] Add button for auto clicker (upgrade 2) 
 2.  - [x] Link the button to the function to gain automatic gold each second  
 3.  - [x] Update score accordingly  
@@ -143,17 +143,17 @@ JavaScript.
 6.  - [x] Update upgrades explanation panel and current active benefits  
 ### Bonus steps
 
-[x] Step 11: bonus 
+ [x] Step 11: bonus 
 1.  - [x] Add button for upgrade 3 (booster) 
 2.  - [x] Link button to function to multiply income by clicks by 2 
 3.  - [x] Update upgrades explanation panel  
 4.  - [x] Add timer to button (5minutes)  
 
-[x] Step 12: deactivate the buttons 
+ [x] Step 12: deactivate the buttons 
 1.  - [x] Adjust functions to disable buttons when gold is insufficient  
 2.  - [x] Add styling to buttons to show when disabled or enabled  
 - 
-[x] Step 13: make it pretty 
+ [x] Step 13: make it pretty 
 1. - [x] Add background to page 
 2. - [x] Style buttons for upgrades (disabled and enabled version) 
 3. - [x] Style upgrades explanation / current active benefits panel  

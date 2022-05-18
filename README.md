@@ -18,7 +18,7 @@ At the end of this challenge you should have improved your:
 
 ## The mission
 
-This challenge will have you create a {clicker}[cookie clicker].
+This challenge will have you create a [cookie clicker](https://en.wikipedia.org/wiki/Cookie_Clicker).
 Follow the instructions to complete the challenge, to get some ideas check the
 examples in the _resources_ section.
 

@@ -92,7 +92,7 @@ JavaScript.
 ---
 ## progress
 
-Step 1: base structure [x]
+Step 1: base structure - [x]
 1. Write base html [x]
 2. Write base css (used scss) [x]
 3. Write base js [x]
@@ -162,14 +162,14 @@ Step 13: make it pretty [x]
 ---
 
 ### Extra features (ideas)
-* Add milestones in upgrade 1
+* Add milestones in upgrade 1 [x]
     1. Set up function to check if level meets requirements  [x]
     2. Increase bonuses gained from milestones achieved [x]
     3. Update panel to show new current active benefit  [x]
     4. Update panel to show updated version of benefits gained when purchased [x]
 
 
-* Add milestones in upgrade 2
+* Add milestones in upgrade 2 [x]
     1. Set up function to check if level meets requirements  [x]
     2. Increase bonuses gained from milestones achieved [x]
     3. Update panel to show new current active benefit  [x]

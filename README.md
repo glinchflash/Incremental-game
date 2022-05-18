@@ -1,5 +1,5 @@
 # Incremental-game
-name: LoL-minion clicker
+Name: LoL-minion clicker
 
 ---
 # LoL-minion clicker

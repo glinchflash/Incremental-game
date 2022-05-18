@@ -83,7 +83,7 @@ Step 13: make it pretty
 Your cookie clicker must be pretty, make it look good with CSS or some extra
 JavaScript.
 
-=== Resources
+#### Examples
 
 * [cookie clicker](http://orteil.dashnet.org/cookieclicker/)
 * [particle clicker](https://particle-clicker.web.cern.ch/particle-clicker/)

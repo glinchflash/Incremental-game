@@ -3,9 +3,11 @@ name: LoL-minion clicker
 
 ---
 # LoL-minion clicker
+
+Check out the current version [here](https://glinchflash.github.io/Incremental-game/).
 ___
 
-== Missions objectives
+## Missions objectives
 
 At the end of this challenge you should have improved your:
 
@@ -14,15 +16,15 @@ At the end of this challenge you should have improved your:
 * Cookie skills
 
 
-== The mission
+## The mission
 
 This challenge will have you create a {clicker}[cookie clicker].
 Follow the instructions to complete the challenge, to get some ideas check the
 examples in the _resources_ section.
 
-image::./cookies.jpg[cookies]
 
-=== Instructions
+
+### Instructions
 
 NOTE: The steps below are meant to help you in development, but as long as you
 make a cookie clicker you can implement whatever you want.
@@ -83,9 +85,9 @@ JavaScript.
 
 === Resources
 
-* http://orteil.dashnet.org/cookieclicker/[cookie clicker]
-* https://particle-clicker.web.cern.ch/particle-clicker/[particle clicker]
-* https://www.pokeclicker.com/[pokémon clicker]
+* [cookie clicker](http://orteil.dashnet.org/cookieclicker/)
+* [particle clicker](https://particle-clicker.web.cern.ch/particle-clicker/)
+* [pokémon clicker](https://www.pokeclicker.com/)
 
 ---
 ## progress

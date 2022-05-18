@@ -161,7 +161,7 @@ Step 13: make it pretty [x]
 
 ---
 
-#### Extra features (ideas)
+### Extra features (ideas)
 * Add milestones in upgrade 1
     1. Set up function to check if level meets requirements  [x]
     2. Increase bonuses gained from milestones achieved [x]
